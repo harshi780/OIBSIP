@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #373a36; /* Dark muted green */
+}
+
+header {
+    background: #d48166; /* Warm earthy orange */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #d48166; /* Warm earthy orange */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background: #b9654e; /* Slightly darker shade for hover effect */
+}
+
+.destinations {
+    padding: 2rem 1rem;
+    background: #e6e2dd; /* Light neutral beige */
+}
+
+.destinations .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.destination {
+    margin-bottom: 2rem;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.destination h3 {
+    margin: 1rem 0 0.5rem;
+    color: #373a36; /* Dark muted green */
+}
+
+.contact {
+    padding: 2rem 1rem;
+    background: #e6e2dd; /* Light neutral beige */
+}
+
+.contact .container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #d48166; /* Warm earthy orange */
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #b9654e; /* Slightly darker shade for hover effect */
+}
+
+footer {
+    background: #d48166; /* Warm earthy orange */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
